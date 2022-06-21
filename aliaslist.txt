@@ -1,0 +1,9 @@
+#!/bin/bash/
+
+source 
+
+alias rm=rmtrash
+alias rmdir=rmdirtrash
+alias ls="ls -a"
+alias gedit="gedit --new-window"
+alias whereami=pwd

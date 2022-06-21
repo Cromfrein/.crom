@@ -1,0 +1,10 @@
+#!/bin/bash
+# Need to write a script that defines readshell,
+# adds dotshell to dotshell, then adds the rest to dotshell
+
+read -p "Where is your shell's dotfile?" readshell
+
+source $readshell
+
+echo export DOTSHELL=~/$readshell >> $readshell
+echo export TRASH='~/.local.share/Trash' >> $readshell

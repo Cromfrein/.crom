@@ -1,7 +1,3 @@
-#!/bin/bash/
-
-source 
-
 alias rm=rmtrash
 alias rmdir=rmdirtrash
 alias ls="ls -a"

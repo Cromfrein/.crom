@@ -4,7 +4,5 @@
 
 read -p "Where is your shell's dotfile?" readshell
 
-source $readshell
-
-echo export DOTSHELL=~/$readshell >> $readshell
-echo export TRASH='~/.local.share/Trash' >> $readshell
+echo export DOTSHELL=$readshell >> $readshell
+echo export DOTSHELL=$readshell >> ~/.dot/.bashrc

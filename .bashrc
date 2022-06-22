@@ -5,3 +5,4 @@ PS1='[\u@\h \W]\$ '
 # Below are .dot variables
 
 export TRASH='~/.local.share/Trash'
+export CROMDOT='~/.dot/.bashrc'
